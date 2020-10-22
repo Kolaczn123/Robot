@@ -37,7 +37,7 @@ void loop() {
         counter=0;
         if(turnTime){
           _debug_linear_ms=0.0;
-          _debug_angle_rs=0.25;
+          _debug_angle_rs=0.24;
           turnTime=!turnTime;
         }
         else
